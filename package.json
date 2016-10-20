@@ -1,0 +1,22 @@
+{
+  "name": "dlestx",
+  "version": "0.0.2",
+  "description": "A stream decoder for DLE STX / DLE ETX framed data.",
+  "main": "dlestx.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha"
+  },
+  "keywords": [
+    "dle",
+    "stx",
+    "etx"
+  ],
+  "author": "Chris Dew",
+  "license": "MIT",
+  "dependencies": {
+    "mocha": "^3.1.2"
+  }
+}
